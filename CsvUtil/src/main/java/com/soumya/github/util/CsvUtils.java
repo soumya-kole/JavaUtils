@@ -3,7 +3,6 @@ package com.soumya.github.util;
 import com.opencsv.bean.*;
 import com.opencsv.exceptions.CsvDataTypeMismatchException;
 import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
-import com.soumya.github.vo.Product;
 
 import java.io.*;
 import java.util.List;
