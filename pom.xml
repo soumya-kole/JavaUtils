@@ -10,5 +10,6 @@
     <version>1</version>
     <modules>
         <module>CsvUtil</module>
+        <module>Algorithms</module>
     </modules>
 </project>

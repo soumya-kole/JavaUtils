@@ -14,7 +14,7 @@ public class Main {
         }
 
         //Write to csv
-        String[] cols = {"maker", "id", "name"};
+        String[] cols = {"maker", "id"};
         CsvUtils.csvWriterUtil(Product.class, data, "in/Out.csv", cols);
 
     }
