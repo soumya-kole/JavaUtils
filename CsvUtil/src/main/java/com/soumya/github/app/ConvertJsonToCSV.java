@@ -1,12 +1,13 @@
-package com.soumya.github.util;
+package com.soumya.github.app;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.soumya.github.util.CsvUtils;
 import com.soumya.github.vo.CsvVo;
 import org.json.*;
 
-public class ConvertJsonToCSVTest {
+public class ConvertJsonToCSV {
     public static void main(String[] args) throws JSONException {
         String jsonArrayString = "{\n" +
                 "\t\"realtime_start\": \"2020-09-25\",\n" +
